@@ -11308,3 +11308,8 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none !important;
+}
