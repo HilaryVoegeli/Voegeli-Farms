@@ -16,6 +16,12 @@
             .card-text2 {
                 font-size: 14px;
             }
+
+            @media only screen and (max-width: 320px) {
+                  #description-about {
+                    display: none;
+                  }
+            }
         </style>
     </head>
     <body class="d-flex flex-column h-100">
@@ -29,7 +35,7 @@
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-5 fw-bolder text-white mb-2">Voegeli Farms, Inc.</h1>
-                                <p class="lead fw-normal text-white-50 mb-4">Since 1854: A 6th generation family dairy farm <br> located in Monticello, WI.</p>
+                                <p id="description-about" class="lead fw-normal text-white-50 mb-4">Since 1854: A 6th generation family dairy farm <br> located in Monticello, WI.</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                                     <a class="btn btn-primary btn-lg px-3 me-sm-3" href="pictures.html">Our Cows</a>
                                     <a class="btn btn-outline-light btn-lg px-4" href="about.html">Our History</a>
